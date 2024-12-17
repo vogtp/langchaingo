@@ -1,6 +1,7 @@
 package documentloaders
 
 import (
+	"context"
 	"os"
 	"path/filepath"
 	"testing"
@@ -52,7 +53,7 @@ func TestNotionDirectoryLoader_Load(t *testing.T) {
 	loader := NewNotionDirectory(tempDir)
 
 	// Load documents from the test directory
-	docs, err := loader.Load()
+	docs, err := loader.Load(context.Background())
 	require.NoError(t, err)
 
 	// Verify the loaded documents match the expected ones
