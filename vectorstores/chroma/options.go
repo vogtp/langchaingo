@@ -65,24 +65,26 @@ func WithIncludes(includes []chromatypes.QueryEnum) Option {
 // variable is not present, an error will be returned.
 func WithOpenAIAPIKey(openAiAPIKey string) Option {
 	return func(p *Store) {
-		p.openaiAPIKey = openAiAPIKey
+		// p.openaiAPIKey = openAiAPIKey
+		panic("not implemented")
 	}
 }
 
 // WithOpenAIOrganization is an option for setting the OpenAI organization id.
 func WithOpenAIOrganization(openAiOrganization string) Option {
 	return func(p *Store) {
-		p.openaiOrganization = openAiOrganization
+		// p.openaiOrganization = openAiOrganization
+		panic("not implemented")
 	}
 }
 
 func applyClientOptions(opts ...Option) (Store, error) {
 	o := &Store{
-		nameSpace:          DefaultNameSpace,
-		nameSpaceKey:       DefaultNameSpaceKey,
-		distanceFunction:   DefaultDistanceFunc,
-		openaiAPIKey:       os.Getenv(OpenAIAPIKeyEnvVarName),
-		openaiOrganization: os.Getenv(OpenAIOrgIDEnvVarName),
+		nameSpace:        DefaultNameSpace,
+		nameSpaceKey:     DefaultNameSpaceKey,
+		distanceFunction: DefaultDistanceFunc,
+		// openaiAPIKey:       os.Getenv(OpenAIAPIKeyEnvVarName),
+		// openaiOrganization: os.Getenv(OpenAIOrgIDEnvVarName),
 	}
 
 	for _, opt := range opts {
@@ -99,9 +101,9 @@ func applyClientOptions(opts ...Option) (Store, error) {
 	}
 
 	// a embedder or an openai api key must be provided
-	if o.openaiAPIKey == "" && o.embedder == nil {
-		return Store{}, fmt.Errorf("%w: missing embedder or openai api key", ErrInvalidOptions)
-	}
+	// if o.openaiAPIKey == "" && o.embedder == nil {
+	// 	return Store{}, fmt.Errorf("%w: missing embedder or openai api key", ErrInvalidOptions)
+	// }
 
 	return *o, nil
 }
