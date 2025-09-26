@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/embeddings"
+	"github.com/vogtp/langchaingo/chains"
+	"github.com/vogtp/langchaingo/embeddings"
 
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/ollama"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores"
-	"github.com/tmc/langchaingo/vectorstores/redisvector"
+	"github.com/vogtp/langchaingo/llms"
+	"github.com/vogtp/langchaingo/llms/ollama"
+	"github.com/vogtp/langchaingo/schema"
+	"github.com/vogtp/langchaingo/vectorstores"
+	"github.com/vogtp/langchaingo/vectorstores/redisvector"
 )
 
 func main() {

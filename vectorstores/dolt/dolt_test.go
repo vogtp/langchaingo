@@ -18,17 +18,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tmc/langchaingo/vectorstores"
+	"github.com/vogtp/langchaingo/vectorstores"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/llms/googleai"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores/dolt"
+	"github.com/vogtp/langchaingo/chains"
+	"github.com/vogtp/langchaingo/embeddings"
+	"github.com/vogtp/langchaingo/llms/googleai"
+	"github.com/vogtp/langchaingo/llms/openai"
+	"github.com/vogtp/langchaingo/schema"
+	"github.com/vogtp/langchaingo/vectorstores/dolt"
 )
 
 var (

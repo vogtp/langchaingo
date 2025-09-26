@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/memory"
+	"github.com/vogtp/langchaingo/chains"
+	"github.com/vogtp/langchaingo/llms"
+	"github.com/vogtp/langchaingo/memory"
 )
 
 func TestFakeLLM_CallMethod(t *testing.T) {

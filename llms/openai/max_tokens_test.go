@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/openai/internal/openaiclient"
+	"github.com/vogtp/langchaingo/llms"
+	"github.com/vogtp/langchaingo/llms/openai/internal/openaiclient"
 )
 
 func TestMaxTokensFieldSerialization(t *testing.T) {

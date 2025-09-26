@@ -14,14 +14,14 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	tclog "github.com/testcontainers/testcontainers-go/log"
 	tcredis "github.com/testcontainers/testcontainers-go/modules/redis"
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/internal/httprr"
-	"github.com/tmc/langchaingo/internal/testutil/testctr"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores"
-	"github.com/tmc/langchaingo/vectorstores/redisvector"
+	"github.com/vogtp/langchaingo/chains"
+	"github.com/vogtp/langchaingo/embeddings"
+	"github.com/vogtp/langchaingo/internal/httprr"
+	"github.com/vogtp/langchaingo/internal/testutil/testctr"
+	"github.com/vogtp/langchaingo/llms/openai"
+	"github.com/vogtp/langchaingo/schema"
+	"github.com/vogtp/langchaingo/vectorstores"
+	"github.com/vogtp/langchaingo/vectorstores/redisvector"
 )
 
 func getTestURIs(t *testing.T) (string, string) {

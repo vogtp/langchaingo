@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/textsplitter"
+	"github.com/vogtp/langchaingo/schema"
+	"github.com/vogtp/langchaingo/textsplitter"
 )
 
 type Option func(*RecursiveDirectoryLoader)

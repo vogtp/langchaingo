@@ -8,12 +8,12 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/httputil"
-	"github.com/tmc/langchaingo/internal/httprr"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/memory"
-	"github.com/tmc/langchaingo/tools"
+	"github.com/vogtp/langchaingo/chains"
+	"github.com/vogtp/langchaingo/httputil"
+	"github.com/vogtp/langchaingo/internal/httprr"
+	"github.com/vogtp/langchaingo/llms/openai"
+	"github.com/vogtp/langchaingo/memory"
+	"github.com/vogtp/langchaingo/tools"
 )
 
 // hasExistingRecording checks if a httprr recording exists for this test

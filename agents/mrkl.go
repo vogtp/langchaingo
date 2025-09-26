@@ -6,11 +6,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/tmc/langchaingo/callbacks"
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/tools"
+	"github.com/vogtp/langchaingo/callbacks"
+	"github.com/vogtp/langchaingo/chains"
+	"github.com/vogtp/langchaingo/llms"
+	"github.com/vogtp/langchaingo/schema"
+	"github.com/vogtp/langchaingo/tools"
 )
 
 const (

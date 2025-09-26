@@ -3,8 +3,8 @@ package agents
 import (
 	"context"
 
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/tools"
+	"github.com/vogtp/langchaingo/schema"
+	"github.com/vogtp/langchaingo/tools"
 )
 
 // Agent is the interface all agents must implement.

@@ -3,9 +3,9 @@ package cloudsql
 import (
 	"errors"
 
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/util/cloudsqlutil"
-	"github.com/tmc/langchaingo/vectorstores"
+	"github.com/vogtp/langchaingo/embeddings"
+	"github.com/vogtp/langchaingo/util/cloudsqlutil"
+	"github.com/vogtp/langchaingo/vectorstores"
 )
 
 const (

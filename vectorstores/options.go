@@ -6,8 +6,8 @@ import (
 	"slices"
 
 	"github.com/google/uuid"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/schema"
+	"github.com/vogtp/langchaingo/embeddings"
+	"github.com/vogtp/langchaingo/schema"
 )
 
 // Option is a function that configures an Options.

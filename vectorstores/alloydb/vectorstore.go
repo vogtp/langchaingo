@@ -9,10 +9,10 @@ import (
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"
 	"github.com/pgvector/pgvector-go"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/util/alloydbutil"
-	"github.com/tmc/langchaingo/vectorstores"
+	"github.com/vogtp/langchaingo/embeddings"
+	"github.com/vogtp/langchaingo/schema"
+	"github.com/vogtp/langchaingo/util/alloydbutil"
+	"github.com/vogtp/langchaingo/vectorstores"
 )
 
 const (

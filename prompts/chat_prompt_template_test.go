@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tmc/langchaingo/llms"
+	"github.com/vogtp/langchaingo/llms"
 )
 
 func TestChatPromptTemplate(t *testing.T) {

@@ -3,7 +3,7 @@ package openai
 import (
 	"testing"
 
-	"github.com/tmc/langchaingo/llms"
+	"github.com/vogtp/langchaingo/llms"
 )
 
 func TestWithMaxCompletionTokens(t *testing.T) {

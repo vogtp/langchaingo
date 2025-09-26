@@ -1,8 +1,8 @@
-module github.com/tmc/langchaingo/examples/openai-completion-example-with-http-debugging
+module github.com/vogtp/langchaingo/examples/openai-completion-example-with-http-debugging
 
 go 1.24.3
 
-require github.com/tmc/langchaingo v0.1.14-pre.4
+require github.com/vogtp/langchaingo v0.1.14-pre.4
 
 require (
 	github.com/dlclark/regexp2 v1.10.0 // indirect
